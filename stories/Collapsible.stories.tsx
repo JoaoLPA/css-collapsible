@@ -1,6 +1,6 @@
 import React from 'react';
 import { Meta, StoryFn } from '@storybook/react';
-import { Collapsible, CollapsibleProps } from '../src';
+import Collapsible, { CollapsibleProps } from '../src';
 
 const InnerComponent: React.FC = () => {
   return (

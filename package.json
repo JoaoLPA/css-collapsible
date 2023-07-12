@@ -29,13 +29,7 @@
       "pre-commit": "tsdx lint"
     }
   },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
-  "name": "col",
+  "name": "css-collapsible",
   "author": "Joao Alves",
   "module": "dist/col.esm.js",
   "size-limit": [
@@ -64,9 +58,11 @@
     "@types/react-dom": "^18.2.6",
     "babel-loader": "^9.1.3",
     "husky": "^8.0.3",
+    "postcss": "^8.4.25",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "size-limit": "^8.2.6",
     "storybook": "7.0.26",
     "tsdx": "^0.14.1",
